@@ -14,6 +14,7 @@ class Artist
   end
 
   def self.all
+    @@all.uniq!
     @@all
   end
 
